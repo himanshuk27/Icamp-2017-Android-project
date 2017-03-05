@@ -20,4 +20,5 @@ This is a very intersting android project developed for KIIT Internship Camp 201
 	-mobile no verification by Digits, fabroc
 	-Instamojo payment portal
 	-User Profile Edit
+	-Password reset by mobile and email
 Some of the technologies used in this project are java, xml, php, mysql, Digits by fabric, Instamojo, Firebase messaging
