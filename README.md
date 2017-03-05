@@ -4,10 +4,10 @@ An elegantly designed android app developed for the KIIT Internship Camp '17, it
 
 ## Project Screen Shot(s)
 
-![Alt text](/ss1.jpg =500x)
-![Alt text](/ss2.jpg =500x)
-![Alt text](/ss3.jpg =500x)
-![Alt text](/ss3.jpg =500x)	
+<img src="ss1.jpg" width=50%>
+<img src="ss2.jpg" width=50%>
+<img src="ss3.jpg" width=50%>
+<img src="ss4.jpg" width=50%>	
 
 #### [Download APK](https://himanshu.cloud/demo/ic17_android.apk)
 
