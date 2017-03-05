@@ -4,17 +4,18 @@ An elegantly designed android app developed for the KIIT Internship Camp '17, it
 
 ## Project Screen Shot(s)
 
-![Alt text](/ss1.jpg "SS1"){:height="50%" width="50%"}
-![Alt text](/ss2.jpg "SS2"){:height="50%" width="50%"}
-![Alt text](/ss3.jpg "SS3"){:height="50%" width="50%"}
-![Alt text](/ss3.jpg "SS4"){:height="50%" width="50%"}	
+![Alt text](/ss1.jpg =500x)
+![Alt text](/ss2.jpg =500x)
+![Alt text](/ss3.jpg =500x)
+![Alt text](/ss3.jpg =500x)	
 
 #### [Download APK](https://himanshu.cloud/demo/ic17_android.apk)
 
 ## Reflection 
 
 This is a very intersting android project developed for KIIT Internship Camp 2017 (http://interncamp.ecell.org.in). Based on android and written in java this highly sophisticated app serves many functions.
-####Some of the useful features:-
+
+#### Some of the useful features:-
 	-Gmail authentication
 	-Push notifications
 	-Resume file upload
