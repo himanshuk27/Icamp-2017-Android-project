@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startup_progress"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/startup_layout"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/company_child"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/globe"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_mobile"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:visibility="invisible" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/money"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_stipend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Stipend"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/marker"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/imageView" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Font
+                android:id="@+id/start_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Location"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cap"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skills"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/clock"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:id="@+id/start_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duration"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

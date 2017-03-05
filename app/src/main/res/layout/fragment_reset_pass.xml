@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cloud.himanshu.internshipcamp17.ResetPassFragment">
+
+
+    <cloud.himanshu.internshipcamp17.EditText_Lato_Light
+        android:id="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter new password"
+        android:inputType="textPassword" />
+
+    <cloud.himanshu.internshipcamp17.EditText_Lato_Light
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pass2"
+        android:hint="Repeat password" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressPass"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <cloud.himanshu.internshipcamp17.Button_Lato_Light
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_submit"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored"  />
+    </LinearLayout>
+</LinearLayout>

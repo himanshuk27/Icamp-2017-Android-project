@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "814565272133",
+    "firebase_url": "https://intershipcamp-17.firebaseio.com",
+    "project_id": "intershipcamp-17",
+    "storage_bucket": "intershipcamp-17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814565272133:android:7bd546c061bff227",
+        "android_client_info": {
+          "package_name": "cloud.himanshu.internshipcamp17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814565272133-q6au3v7qbdqtjc4tk6omle9nqbhnvc1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.himanshu.internshipcamp17",
+            "certificate_hash": "eea11884b86fc834914ee77e6ad27e1a7b5210f7"
+          }
+        },
+        {
+          "client_id": "814565272133-3v99pqsk3i8157mvpdp2ec8fo397o0qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuYFNCfgLQX8IHoKQn_YqDglbl03DV66s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814565272133-3v99pqsk3i8157mvpdp2ec8fo397o0qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

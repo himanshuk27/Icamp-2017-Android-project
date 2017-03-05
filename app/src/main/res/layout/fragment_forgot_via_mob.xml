@@ -1,0 +1,77 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="120dp"
+    android:gravity="center">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetMobProg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mob_input_layout"
+        android:visibility="gone">
+
+        <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+            android:text="Enter the pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <cloud.himanshu.internshipcamp17.EditText_Lato_Light
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/reset_mob"
+            android:hint="Enter Secure Pin"
+            android:singleLine="true"
+            android:inputType="number" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dispResult"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:layout_alignParentStart="true"
+                android:visibility="gone" />
+
+            <cloud.himanshu.internshipcamp17.TextView_Lato_Font
+                android:text="Resend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resend"
+                android:gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarsms"
+                android:layout_alignParentEnd="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

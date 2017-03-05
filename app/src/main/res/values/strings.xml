@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Internship Camp 2017</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_faq">FAQs</string>
+    <string name="action_tnc">Terms and Conditions</string>
+    <string name="action_procedure">Procedure</string>
+    <string name="action_share">Share</string>
+    <string name="action_about_us">About Us</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_student__reg">Student_RegActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>

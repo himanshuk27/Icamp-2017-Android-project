@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true">
+
+        <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internship Camp 2017"
+            android:textSize="25dp"
+            android:textColor="@color/green_light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/textView" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <cloud.himanshu.internshipcamp17.EditText_Lato_Light
+                android:id="@+id/st_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Email ID"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <cloud.himanshu.internshipcamp17.EditText_Lato_Light
+                android:id="@+id/st_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Password"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:drawablePadding="10dp" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <cloud.himanshu.internshipcamp17.Button_Lato_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="LOGIN"
+                android:textColor="@color/green_light"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/st_login"/>
+            <cloud.himanshu.internshipcamp17.Button_Lato_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="REGISTER"
+                android:textColor="@color/blue_light"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/st_reg"/>
+        </LinearLayout>
+        <cloud.himanshu.internshipcamp17.TextView_Lato_Light
+            android:id="@+id/forgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</LinearLayout>
