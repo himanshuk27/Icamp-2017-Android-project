@@ -1,13 +1,13 @@
 # Internship Camp 2017
 
-An elegantly designed android app developed for the KIIT Internship Camp '17, it features social media login, user profile updation with resume upload, real-time company stats card, push notifications for alerts, instamojo 256 bit secured payment gateway, all interaction with custom php apis hosted on aws servers.
+An elegantly designed android app developed for the KIIT Internship Camp '17, it features social media login, user profile updation with resume upload, real-time company stats card, push notifications for alerts, instamojo 256 bit secured payment gateway, all interaction with custom php apis hosted on aws servers.	
 
 ## Project Screen Shot(s)
 
-![Alt text](/app/ss1.jpg "SS1"){:height="50%" width="50%"}
-![Alt text](/app/ss2.jpg "SS2"){:height="50%" width="50%"}
-![Alt text](/app/ss3.jpg "SS3"){:height="50%" width="50%"}
-![Alt text](/app/ss3.jpg "SS4"){:height="50%" width="50%"}	
+![Alt text](/ss1.jpg "SS1"){:height="50%" width="50%"}
+![Alt text](/ss2.jpg "SS2"){:height="50%" width="50%"}
+![Alt text](/ss3.jpg "SS3"){:height="50%" width="50%"}
+![Alt text](/ss3.jpg "SS4"){:height="50%" width="50%"}	
 
 #### [Download APK](https://himanshu.cloud/demo/ic17_android.apk)
 
